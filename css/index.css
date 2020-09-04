@@ -87,26 +87,19 @@ header .navbar {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    
+    align-content: flex-end;
     width: 100%;
-    margin: 5% 0;
+    margin: 2% 0 6%;
     border: 2px solid gray;
 }
-
-
 
 .nav {
     width: 80%;
     display: flex;
     justify-content: space-around;
-   
-    padding: 20px 2%;
     font-size: 16px;
-    border: 2px solid gray;
+    border: 2px solid blue;
 }
-
-
-
 
 /* HEADER ends here */
 
@@ -151,6 +144,47 @@ header .navbar {
     justify-content: center;
 }
 
+.middle-content .boxes .box:nth-child(1) {
+    background-color:teal;
+}
+
+.middle-content .boxes .box:nth-child(2) {
+    background-color:khaki;
+}
+
+.middle-content .boxes .box:nth-child(3) {
+    background-color:darkcyan;
+}
+
+.middle-content .boxes .box:nth-child(4) {
+    background-color:lightcoral;
+}
+
+.middle-content .boxes .box:nth-child(5) {
+    background-color:red;
+}
+
+.middle-content .boxes .box:nth-child(6) {
+    background-color:darkgreen;
+}
+
+.middle-content .boxes .box:nth-child(7) {
+    background-color:rebeccapurple;
+}
+
+.middle-content .boxes .box:nth-child(8) {
+    background-color:pink;
+}
+
+.middle-content .boxes .box:nth-child(9) {
+    background-color:purple;
+}
+
+.middle-content .boxes .box:nth-child(10) {
+    background-color:lightblue;
+}
+
+
 .bottom-content {
     display: flex;
     margin: 0 2% 20px;
@@ -182,4 +216,45 @@ footer nav {
 footer nav a {
     color: white;
     text-decoration: none;
+}
+
+/* ABOUT page begins here */
+
+#about-blerb {
+    padding-bottom: 2vh;
+    border-bottom: 2px dashed black;
+}
+
+/* CARDS being here */
+#cards {
+    padding: 2vh 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.card {
+    width: 46%;
+    padding: 5% 0;
+    margin-bottom: 5%;
+    border-bottom: 2px dashed black;
+}
+
+.card h2 {
+    padding: 3% 0;
+}
+
+.card p {
+    padding-bottom: 8%;
+}
+
+.card a {
+    border: 2px solid black;
+    border-radius: 10px;
+    padding: 2% 5%;
+}
+
+#bottom-blerb{
+    margin-bottom: 5%;
 }
