@@ -90,18 +90,20 @@ header .navbar {
     align-content: flex-end;
     width: 100%;
     margin: 2% 0 6%;
-    border: 2px solid gray;
+  
 }
 
 .nav {
     width: 80%;
     display: flex;
     justify-content: space-around;
+    align-self: flex-end;
     font-size: 16px;
-    border: 2px solid blue;
 }
 
 /* HEADER ends here */
+
+/* TOP-CONTENT begins here */
 
 .top-content {
     display: flex;
@@ -116,6 +118,10 @@ header .navbar {
     padding: 0 1%;
     padding-bottom: 20px;  
 }
+
+/* TOP-CONTENT ends here */
+
+/* MIDDLE-CONTENT begins here */
 
 .middle-content {
     margin-bottom: 20px;
@@ -184,6 +190,9 @@ header .navbar {
     background-color:lightblue;
 }
 
+/* MIDDLE-CONTENT ends here */
+
+/* BOTTOM-CONTENT begins here */
 
 .bottom-content {
     display: flex;
@@ -198,6 +207,10 @@ header .navbar {
 .bottom-content .text-container:last-child {
     padding-right: 0;
 }
+
+/* BOTTOM-CONTENT ends here */
+
+/* FOOTER-CONTENT begins here */
 
 footer {
     width: 100%;
