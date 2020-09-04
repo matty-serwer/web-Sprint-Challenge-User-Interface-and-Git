@@ -80,7 +80,7 @@ a {
 /* HEADER begins here */
 
 header {
-    margin-bottom: 2vh;
+    margin-bottom: 3vh;
 }
 
 header .navbar {
@@ -235,10 +235,11 @@ footer nav a {
 
 /* ABOUT page begins here */
 
-#about-blerb {
-    padding-bottom: 2vh;
-    border-bottom: 2px dashed black;
+
+.blerb {
+    margin-bottom: 5%;
 }
+/* top and bottom blerbs */
 
 /* CARDS being here */
 #cards {
@@ -247,6 +248,7 @@ footer nav a {
     flex-wrap: wrap;
     justify-content: space-between;
     width: 100%;
+    border-top: 2px dashed black;
 }
 
 .card {
@@ -272,6 +274,3 @@ footer nav a {
 
 /* CARDS end here */
 
-#bottom-blerb{
-    margin-bottom: 5%;
-}
